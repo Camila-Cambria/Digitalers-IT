@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario registro</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos Digitalers</h1>
+        <h2>Registro para crar un usuario nuevo</h2>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="txtNombre">Nombre:</label>
+                <input type="text" id="txtNombre" name="nombre" required pattern="^[A-Z][a-z]*$" />
+            </div>
+            <div>
+                <label for="txtApellido">Apellido:</label>
+                <input type="text" id="txtApellido" name="apellido" minlength="3" maxlength="10"/>
+            </div>
+            <div>
+                <label for="txtFechaNacimiento"> Fecha de Nacimiento</label>
+                <div><input type="date" id="txtFechaNacimiento" name="txtFechaNacimiento"></div>
+            </div>
+            <div>
+                <label for="txtPassword">Password:</label>
+                <div><input type="password" id="txtPassword" name="txtPassword"></div>
+            </div>
+            <div>
+                <label for="txtVerificacionPassword">Verificar Password:</label>
+                <div><input type="password" id="txtVerificacionPassword" name="verificaPassword"></div>
+            </div>
+            <div>
+                <input type="checkbox" id="chkAceptoTerminosCondiciones" name="aceptoterminos">
+                <label for=""> Acepto terminos y condiciones</label>
+            </div>
+            <button>Enviar formulario</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

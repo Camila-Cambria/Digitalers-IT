@@ -1,0 +1,106 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #cfcfcf;
+}
+
+/*
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+*/
+
+body>header {
+    background-color: rgb(19, 19, 19);
+    color:#EFEFEF;
+    margin-top: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body>header>div {
+    display :inline-block;
+}
+
+/*header>img {
+    float: left;
+}*/
+
+nav {
+   background-color: #272727;
+   color: gray;
+}
+
+nav a{
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+aside {
+    position: absolute;
+    top:200px;
+    width: 200px;
+    right: 10px;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid grey;;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+form {
+    width: 50%;
+    border: 2px solid #196869;
+    background-color:#bcd1d1;
+    margin-left: 260px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form>h3 {
+    font-size: 20px;
+    color: #196869;
+    padding-bottom: 20px;
+}
+
+.ph-name {
+
+    height: 37px;
+    margin-left: 62px;
+    border-radius: 5px;
+}
+
+.ph-email {
+    border-radius: 5px;
+    height: 195px;
+    padding: 5px 10px;
+}
+
+.op {
+    margin-left: 44px;
+    margin-top: -158px;
+}
+
+button {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+footer {
+    position: absolute;
+    margin-left: 386px;
+    padding: 43px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+
+
