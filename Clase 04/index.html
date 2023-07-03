@@ -15,7 +15,7 @@
             <img src="images/logo.jpg" width="200px" />
         </div>
         <div>
-            <h1>Digitallers Portal</h1>
+            <h1>Digitalers Portal</h1>
             <h2>Las ultimas noticias del curso de Digitallers &#128512;</h2>
         </div>
     </header>
@@ -26,60 +26,70 @@
     </nav>
     <main>
         <section id="noticias">
-            <article class="noticia" id="noticia_1">
-                <header><h3>Un juegazo para aprender css</h3></header>
-                <p>
-                    Css Sushi es un juegazo para aprender css.s
-                    Pueden acceder al mismo <a href="https://flukeout.github.io/">aqui</a>
-                </p>
-            </article>
-            <article class="noticia" id="noticia_2">
-                <header><h3>Digitallers es la mejor propuesta de capacitacion</h3></header>
-                <p>
-                    Queres ser un jedi del frontend? Que estas esperando.
-                    El programa digitalers es tu oportunidad.
-                </p>
-            </article>
-            <article class="noticia" id="noticia_3">
-                <header><h3>Una IA crea los simpsons en la vida real</h3></header>
-                <p>
-                   Se le pidi&oacute; a una IA que retrate a los simpson en la vida real y esto es lo que salio.
-                   queres verlos en el siguiente link
-                   <a href="https://elcomercio.pe/tecnologia/inteligencia-artificial/asi-se-verian-los-personajes-de-los-simpsons-en-la-vida-real-segun-una-ia-fotos-inteligencia-artificial-midjourney-noticia/"> aqui</a>
-                </p>
-             </article>
+            <div>
+                <article class="noticia" id="noticia_1">
+                    <header><h3>Un juegazo para aprender css</h3></header>
+                    <p>
+                        Css Sushi es un juegazo para aprender css.s
+                        Pueden acceder al mismo <a href="https://flukeout.github.io/">aqui</a>
+                    </p>
+                </article>
+            </div>
+            <div>
+                <article class="noticia" id="noticia_2">
+                    <header><h3>Digitallers es la mejor propuesta de capacitacion</h3></header>
+                    <p>
+                        Queres ser un jedi del frontend? Que estas esperando.
+                        El programa digitalers es tu oportunidad.
+                    </p>
+                </article>
+            </div>
+            <div>
+                <article class="noticia" id="noticia_3">
+                    <header><h3>Una IA crea los simpsons en la vida real</h3></header>
+                    <p>
+                       Se le pidi&oacute; a una IA que retrate a los simpson en la vida real y esto es lo que salio.
+                       queres verlos en el siguiente link
+                       <a href="https://elcomercio.pe/tecnologia/inteligencia-artificial/asi-se-verian-los-personajes-de-los-simpsons-en-la-vida-real-segun-una-ia-fotos-inteligencia-artificial-midjourney-noticia/"> aqui</a>
+                    </p>
+                 </article>
+            </div>
         </section>
         <section id="comentarios">
             <article id="comentario_1">
-                <img src="images/avatar.jpg" width="100px" />
-                <p>Muy bueno el curso!</p>
+                <div> <img src="images/avatar.jpg" width="100px" /></div>
+                <div><p>Muy bueno el curso!</p></div>
             </article>
             <article id="comentario_2">
-                <img src="images/avatar.jpg" width="100px" />
-                <p>Aprendi tanto que me llamaron a trabajar de google</p>
+                <div><img src="images/avatar.jpg" width="100px" /></div>
+                <div><p>Aprendi tanto que me llamaron a trabajar de google</p></div>
             </article>
             <article id="comentario_3">
-                <img src="images/avatar.jpg" width="100px" />
-                <p>Aguante el html</p>
+                <div><img src="images/avatar.jpg" width="100px" /></div>
+                <div><p>Aguante el html</p></div>
             </article>
         </section>
-        <section id="deja_tu_comentario">
-            <form>
-                <h3>DANOS TU OPINION</h3>
-                <div class="ph-name">
-                    <label>Nombre:</label>
-                    <input type="text" required />
+        <section>
+            <div id="formWrapper">
+                <div>
+                    <form>
+                        <h3>DANOS TU OPINION</h3>
+                        <div class="ph-name">
+                            <label>Nombre:</label>
+                            <input type="text" required />
+                        </div>
+                        <div class="ph-email">
+                            <label>Correo:</label>
+                            <input type="email" />
+                        </div>
+                        <div class="op">
+                            <label>Comentario</label>
+                            <textarea></textarea>
+                        </div>
+                        <button>Enviar comentario</button>
+                    </form>
                 </div>
-                <div class="ph-email">
-                    <label>Correo: (Opcional)</label>
-                    <input type="email" />
-                </div>
-                <div class="op">
-                    <label>Comentario</label>
-                    <textarea></textarea>
-                </div>
-                <button>Dejar Comentario</button>
-            </form>
+            </div>
         </section>
     </main>
     <aside>
@@ -87,7 +97,12 @@
         <p>La mejor banda ancha para tu hogar</p>
     </aside>
     <footer>
-        Copyright 2023 	&copy; Digitalers
+        <div class="logos">
+            <div><a href="https://www.facebook.com/"><img src="images/fb.png" alt="facebook logo"></a></div>
+            <div><a href="https://www.instagram.com/"><img src="images/ig.png" alt="instagram logo"></a></div>
+            <div><a href="https://www.twitter.com/"><img src="images/tw.png" alt="twitter logo"></a></div>
+        </div>
+       <p>Copyright 2023  &copy; Digitalers </p>
     </footer>
 </body>
 
