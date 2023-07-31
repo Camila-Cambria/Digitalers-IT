@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Bienvenidos a Javascript</title>
+
+    <script>
+        /*function escribirHolaMundo() {
+            document.write("¡Hola mundo! desde funcion ");
+        }
+
+        function mostrarAlert(){
+            alert('Mensaje de prueba');
+        } */
+
+        function saludar() {
+
+            let name = document.getElementById("name");
+            let divSaludo = document.getElementById("divSaludo");
+            let nombre = name.value;
+            //alert(`Hola ${nombre}`);
+            //divSaludo.innerText = `Hola ${nombre}`;
+            if (nombre){
+                divSaludo.innerHTML = ` <h2>Hola ${nombre}</h2> `;
+            }else{
+                divSaludo.innerHTML = ` <h2>No ha ingresado ningun nombre</h2> `;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Primer Ejemplo Javascript: Saludo</h1>
+    Ingrese su nombre
+    <input id="name" type="text" placeholder="Ingrese su nombre" />
+    <button onclick="saludar()">Saludar</button>
+    <div id="divSaludo">
+
+    </div>
+    <!---    <h1>
+        <script>
+        //    escribirHolaMundo();
+        //    mostrarAlert();
+        </script>
+    </h1>
+    <button onclick="mostrarAlert()">
+        Ejecutar funcion
+    </button> -->
+</body>
+</html>
